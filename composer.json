@@ -2,6 +2,7 @@
   "name": "ninepay/core",
   "description": "9Pay Core",
   "license": "MIT",
+  "version": "v1.0",
   "authors": [
     {
       "name": "Ket Nguyen",
