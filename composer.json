@@ -1,0 +1,39 @@
+{
+  "name": "ninepay/core",
+  "description": "9Pay Core",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ket Nguyen",
+      "email": "vanket90@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1|^8.0",
+    "guzzlehttp/guzzle": "^7.0",
+    "phpseclib/phpseclib": "^3.0",
+    "dflydev/dot-access-data": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NinePay\\Core\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/helpers.php"
+    ],
+    "psr-4": {
+      "NinePay\\Core\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x.x-dev"
+    }
+  }
+}
